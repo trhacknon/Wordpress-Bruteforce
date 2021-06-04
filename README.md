@@ -1,4 +1,3 @@
-![Terkey](https://github-readme-stats.vercel.app/api/pin?username=RandsX&repo=Terkey&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 # WordPress Brute Force Login
 
 Install Requirement
@@ -21,24 +20,15 @@ php wp -t site.com -u admin -p admin
 ```
 * Using Wordlist
 ``` bash
-php wp -t site.com -u admin -l list.txt
+php wp -t https://site.com/wp-login.php -u admin -l list.txt
 ```
+* Using Wordlist
+``` bash
+php wp -t https://site.com/xmlrpc.php -u admin -l list.txt
+```
+
 * Custom User Agent
 ``` bash
-php wp -t site.com -u admin -l list.txt -g="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15"
+php wp -t https://site.com/wp-login.php -u admin -l list.txt -g="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15"
 ```
 For use the standar mode or xmlrpc mode, this tool auto detect your want brute force mode in url target.
-
-Screenshot
-----------
-* Help
-
-![Help Pict](https://images2.imgbox.com/fa/71/vs1tiOtZ_o.png)
-
-* Standart Mode Brute Force
-
-![Standart Mode Brute Force](https://images2.imgbox.com/cd/65/1FDcQayq_o.png)
-
-* Xmlrpc Mode Brute Force
-
-![Xmlrpc Mode Brute Force](https://images2.imgbox.com/84/99/VrmsmUXT_o.png)
