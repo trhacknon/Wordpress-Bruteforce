@@ -1,0 +1,12 @@
+admin
+administrator
+admin123
+admin123456
+pass
+admin@admin
+admin1234
+admin12345
+123456
+password
+admin@123
+password123
