@@ -1,4 +1,4 @@
-# WordPress Brute Force Login
+# WordPress BruteForce Maschill
 
 Install Requirement
 -------------------
@@ -9,6 +9,7 @@ pkg install php
 Features
 --------
 * Standard mode or xmlrpc brute force mode
+* Standard mode or wp-login brute force mode
 * http and https protocols supported
 * Custom HTTP USER AGENT
 
@@ -16,7 +17,7 @@ Usage
 -----
 * No Wordlist
 ``` bash
-php wp -t site.com -u admin -p admin
+php wp -t https://site.com -u admin -p admin
 ```
 * Using Wordlist
 ``` bash
