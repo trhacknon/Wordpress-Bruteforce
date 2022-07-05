@@ -1,4 +1,4 @@
-# WordPress BruteForce Maschill
+# WordPress BruteForce trhacknon
 
 Install Requirement
 -------------------
