@@ -78,7 +78,7 @@ class Xploit {
 | | /| / / __ \/ __  / /_
 | |/ |/ / /_/ / /_/ / __/
 |__/|__/ .___/_____/_/
-      /_/ ".$this->green."Wordpress Brute Force".$this->white.(($this->type == null)?"\nAuthor : RandsX@22XploiterCrew":" - ").$this->yellow.(($this->type == "xmlrpc") ? $this->type." login" : $this->type)."\n".$this->white;
+      /_/ ".$this->green."Wordpress Brute Force".$this->white.(($this->type == null)?"\nAuthor : trhacknon ":" - ").$this->yellow.(($this->type == "xmlrpc") ? $this->type." login" : $this->type)."\n".$this->white;
     }
 
     private function checkHost() {
